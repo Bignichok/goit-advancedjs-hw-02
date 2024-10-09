@@ -63,3 +63,53 @@ button[data-start]:disabled {
     font-size: 16px;
     color: #666;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.form fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form legend {
+    font-weight: bold;
+    color: #333;
+}
+
+.form button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #4DC274;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #3ea960;
+}
